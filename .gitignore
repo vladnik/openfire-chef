@@ -1,3 +1,5 @@
+.bundle
+vendor/bundle
 .vagrant
 Berksfile.lock
 Gemfile.lock

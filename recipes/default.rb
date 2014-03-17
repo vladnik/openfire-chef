@@ -1,4 +1,6 @@
-include_recipe "java::default"
+include_recipe "apt"
+include_recipe "build-essential"
+include_recipe "java"
 
 if node[:openfire][:database][:active]
   include_recipe "openfire::database"
